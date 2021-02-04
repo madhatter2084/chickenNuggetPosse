@@ -1,0 +1,48 @@
+body{
+    background-image: url("./assets/chicnugbg.jpg");
+}
+
+h1{
+    background-color: rgba(0,0,0,0);
+    color: rgb(230, 103, 29);
+    text-shadow: 2px 2px #0f0e0e;
+    text-align: center;
+
+}
+
+.center{
+    text-align: center;
+    justify-content: center;
+}
+
+.fadeIn {
+    animation: fadeIn ease 4s;
+    -webkit-animation: fadeIn ease 4s;
+    -moz-animation: fadeIn ease 4s;
+    -o-animation: fadeIn ease 4s;
+    -ms-animation: fadeIn ease 4s;
+    }
+    @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
